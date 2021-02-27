@@ -6,11 +6,11 @@ app.get("/", function (req, res){
 })
 
 app.get("/sobre", function (req, res){
-    res.sendFile(__dirname + "/sobre.html")
+    res.sendFile(__dirname + "/_views/sobre.html")
 })
 
 app.get("/contato",function(req, res){
-    res.sendFile(__dirname + "/contato.html")
+    res.sendFile(__dirname + "/_views/contato.html")
 })
 
 
